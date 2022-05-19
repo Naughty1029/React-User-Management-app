@@ -22,7 +22,6 @@
     "noImplicitReturns": true,//追記 関数戻り値の型注釈を必須にする
     "noUnusedLocals": true,//追記 使われていない変数を禁止する
     "noUnusedParameters": true,//追記 使われていない引数を禁止する
-    "baseUrl": "src",//追記 モジュールのパスが絶対パス指定で場合、基準とするフォルダ
   },
   "include": [
     "src"
