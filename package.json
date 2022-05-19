@@ -45,6 +45,10 @@
     ]
   },
   "devDependencies": {
+    "@chakra-ui/react": "^1.8.8",
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "framer-motion": "^3.10.6",
     "husky": "^7.0.0",
     "lint-staged": "^12.4.1",
     "prettier": "^2.6.2"
