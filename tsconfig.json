@@ -1,11 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -19,11 +15,9 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "noImplicitReturns": true,//追記 関数戻り値の型注釈を必須にする
-    "noUnusedLocals": true,//追記 使われていない変数を禁止する
-    "noUnusedParameters": true,//追記 使われていない引数を禁止する
+    "noImplicitReturns": true, //追記 関数戻り値の型注釈を必須にする
+    "noUnusedLocals": true, //追記 使われていない変数を禁止する
+    "noUnusedParameters": true //追記 使われていない引数を禁止する
   },
-  "include": [
-    "src"
-  ]
+  "include": ["src"]
 }
